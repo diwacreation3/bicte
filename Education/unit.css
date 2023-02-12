@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 13px;
+}
+
+header {
+    padding: 9px;
+}
+
+header .head {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.content {
+    /* border-radius: 13px;
+    background: #ccc; */
+    height: 100vh ;
+    
+
+}
+
+.content .title {
+    font-style: oblique;
+    font-size: 400;
+    font-size: 17px;
+    color: rgb(63, 69, 199);
+}
+
+.content .texts {
+    padding: 13px;
+    font-size: 14px;
+}
+b{
+    color: rgb(2, 0, 138);
+}
+ol ,ul{
+   margin-left:9% ;
+   
+}
+ol,ul li{
+color: rgb(0, 128, 202);
+font-size: 13px;
+}
+i{
+    color: crimson;
+}
+.btn{
+   margin-left: 63%;
+   padding-bottom: 33px;
+  
+}
+.btn a{
+    color: #fff;
+    padding: 9px;
+    border-radius: 16px;
+    text-decoration: none;
+    background: linear-gradient(33deg,#6D73FF,#33CCFF);
+    box-shadow: 0 1px 13px #33CCFF;
+
+}
