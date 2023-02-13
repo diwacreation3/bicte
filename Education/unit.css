@@ -51,12 +51,14 @@ ol ,ul{
    margin-left:9% ;
    
 }
-ol,ul li{
+ol ,ul, li{
 color: rgb(0, 128, 202);
 font-size: 13px;
+padding: 6px;
 }
 i{
     color: crimson;
+    padding: 6px;
 }
 .btn{
    margin-left: 63%;
