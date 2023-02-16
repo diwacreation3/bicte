@@ -10,7 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    transition: 0.5s;
+}
 .container {
     padding: 13px;
 }
@@ -73,4 +75,8 @@ i{
     background: linear-gradient(33deg,#6D73FF,#33CCFF);
     box-shadow: 0 1px 13px #33CCFF;
 
+}
+.btn a:hover{
+    background: linear-gradient(69deg, #33CCFF , #6D73FF );
+    transition: 1s;
 }
