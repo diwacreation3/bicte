@@ -46,6 +46,9 @@ header .head {
     padding: 13px;
     font-size: 14px;
 }
+h2{
+    color: rgb(54, 0, 0);
+}
 b{
     color: rgb(2, 0, 138);
 }
@@ -80,3 +83,21 @@ i{
     background: linear-gradient(69deg, #33CCFF , #6D73FF );
     transition: 1s;
 }
+/* Table css */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 13px;
+   
+  }
+  
+  td, th {
+   border: 1px solid #33CCFF;
+    text-align: left;
+    padding: 9px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
