@@ -50,7 +50,7 @@ h2{
     color: rgb(54, 0, 0);
 }
 b{
-    color: rgb(2, 0, 138);
+    color: rgb(0, 32, 138);
 }
 ol ,ul{
    margin-left:9% ;
@@ -100,4 +100,12 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+  /* center text */
+  .cen{
+    text-align: center;
+    
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+
   }
