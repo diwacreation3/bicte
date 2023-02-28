@@ -11,14 +11,16 @@
 body{
     display: flex;
     justify-content: center;
-   background: linear-gradient(45deg, #d1eaff,#f5daff);
+    background: linear-gradient(45deg, #d1eaff,#f5daff);
+    height: 100vh;
+    
 }
 .container{
     padding: 23px;
     background: #fff;
     margin: 9px;
     border-radius: 19px;
-    height: 63vh auto;
+    height: 80vh ;
     width: 49vw auto;
     
 }
